@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob&Co.Com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- Header -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMYUUfZ52Vro0S_Im7Ax9Ze8XDbMh9knBuwA&s" alt="Logo" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+        </ul>
+
+        <div class="tech ms-lg-auto">
+          <select name="brand" id="selectbrand" class="form-select" onchange="selectfunc(event)">
+            <option selected disabled value="Select Brand">Select Brand</option>
+          </select>
+
+          <select onchange="watchselect()" name="mobile" id="selectproduct" class="form-select">
+            <option selected disabled value="Select Mobile">Select Watch</option>
+          </select>
+    
+          <button onclick="search()" type="button" class="btn btn-warning">Search</button>
+        </div>
+      </div>
+    </div>
+</nav>
+<div class="logos">
+<div class=" container  ">
+  <div class="row text-center align-items-center">
+      <div class="col">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Logo_da_Rolex.png/2560px-Logo_da_Rolex.png" alt="Xiaomi logo" class="img-fluid">
+      </div>
+      <div class="col">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Patek_Philippe_SA_logo.svg/1200px-Patek_Philippe_SA_logo.svg.png" alt="Apple" class="img-fluid">
+      </div>
+      <div class="col">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Logo_Audemars_Piguet-2.jpg" alt="redmi" class="img-fluid">
+      </div>
+      <div class="col">
+          <img src="https://knar.com/cdn/shop/files/Jacob-and-Co-Knar-Jewellery-300x123.webp?v=1700433064&width=300" alt="samsung" class="img-fluid">
+      </div>
+  </div>
+</div>
+</div>
+<img class="bgimg" src="bg.PNG" alt="">
+
+
+
+<div class="datacard" id="datacard"></div>
+</div>
+
+
+
+
+
+
+
+<div class="data row" id="data">
+</div>
+
+
+<!-- footer  -->
+
+
+
+
+
+<div class="footer">
+  <header>
+    <!-- Content -->
+  </header>
+  
+  <main>
+    <!-- Content -->
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__addr">
+      <h1 class="footer__logo">Price Oye</h1>
+          
+      <h2>Contact</h2>
+      
+      <address>
+        Karachi,Pakistan<br>
+            
+        <a class="footer__btn" href="waqas.khokhar2002@gmail.com">Email Us:</a>
+      </address>
+    </div>
+    
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Watches</h2>
+  
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Jacob & Co</a>
+          </li>
+  
+          <li>
+            <a href="#">Rolex</a>
+          </li>
+              
+          <li>
+            <a href="#">Patek Philep</a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="nav__item nav__item--extra">
+        <h2 class="nav__title">Mobile</h2>
+        
+        <ul class="nav__ul nav__ul--extra">
+          <li>
+            <a href="#">Samsung</a>
+          </li>
+          
+          <li>
+            <a href="#">Applie IO</a>
+          </li>
+          
+          <li>
+            <a href="#">Redmi</a>
+          </li>
+          
+          <li>
+            <a href="#">Techo</a>
+          </li>
+          
+          <li>
+            <a href="#">Itel</a>
+          </li>
+          
+          <li>
+            <a href="#">Xioami</a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="nav__item">
+        <h2 class="nav__title">Legal</h2>
+        
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          
+          <li>
+            <a href="#">Terms of Use</a>
+          </li>
+          
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    
+    <div class="legal">
+      <p>&copy; 2024 Something. All rights reserved Made By Waqas Asif Khokhar ♥.</p>
+      
+      </div>
+    </div>
+  </footer>
+
+</div>
+</div>
+
+
+
+
+
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
